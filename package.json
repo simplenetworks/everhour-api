@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/ben-pr-p/everhour-api.git"
   },
-  "keywords": ["everhour", "nodejs", "superagent", "wrapper", "api"],
+  "keywords": [
+    "everhour",
+    "nodejs",
+    "superagent",
+    "wrapper",
+    "api"
+  ],
   "author": "Ben Packer <ben.paul.ryan.packer@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -19,6 +25,7 @@
   "homepage": "https://github.com/ben-pr-p/everhour-api#readme",
   "dependencies": {
     "moment": "^2.21.0",
-    "superagent": "^3.8.2"
+    "superagent": "^3.8.2",
+    "superagent-throttle": "^0.2.5"
   }
 }
