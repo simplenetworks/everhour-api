@@ -6,6 +6,7 @@ module.exports = params => {
   const projects = require("./lib/projects")(api);
   const clients = require("./lib/clients")(api);
   const users = require("./lib/users")(api);
+  const sections = require("./lib/sections")(api);
 
   return {
     api,
@@ -14,6 +15,7 @@ module.exports = params => {
     timer,
     projects,
     clients,
-    users
+    users,
+    sections
   };
 };
